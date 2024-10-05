@@ -14,7 +14,12 @@ public class ACCOUNT implements Serializable{
 		this.interestRate=interestRate;
 		this.routingNumber = routingNumber;
 	}
-	
+
+	public ACCOUNT(String accountNumber, double balance) {
+        this.accountNumber = accountNumber;
+        this.balance = balance;
+	}
+
 	public String getAccountNumber() {
 		return accountNumber;
 	}
