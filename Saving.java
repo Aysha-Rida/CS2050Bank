@@ -1,5 +1,4 @@
 package Program5.java;
-
 import java.io.Serializable;
 import java.util.Random;
 

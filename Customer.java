@@ -3,13 +3,13 @@ import java.io.Serializable;
 
 @SuppressWarnings("serial")
 public class Customer implements Serializable{
-		private String Name;
+		private String name;
 		private String customerID;
 		private ACCOUNT account;
 		
 
-	    public Customer(String Name, String customerID, ACCOUNT account) {
-	        this.Name = Name;
+	    public Customer(String name, String customerID, ACCOUNT account) {
+	        this.name = name;
 	        this.customerID = customerID;
 	        this.account = account;
 	    }
@@ -22,16 +22,16 @@ public class Customer implements Serializable{
 	        this.account = account;
 	    }
 
-	    public String getName() {
-	        return Name;
+	    public String getname() {
+	        return name;
 	    }
 
 	    public String getCustomerID() {
 	        return customerID;
 	    }
 
-	    public void setName(String Name) {
-	        this.Name = Name;
+	    public void setname(String name) {
+	        this.name = name;
 	    }
 
 	    public void setCustomerID(String customerID) {
